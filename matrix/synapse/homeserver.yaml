@@ -1,0 +1,4 @@
+# TODO: configure Synapse homeserver settings
+# Use example.com placeholders; do not place secrets here.
+server_name: "example.com"
+public_baseurl: "https://matrix.example.com/"

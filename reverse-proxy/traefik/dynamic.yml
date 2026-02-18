@@ -1,0 +1,19 @@
+# TODO: configure dynamic routing for Traefik
+http:
+  routers:
+    matrix:
+      rule: "Host(`matrix.example.com`)"
+      service: matrix
+    livekit:
+      rule: "Host(`livekit.example.com`)"
+      service: livekit
+
+  services:
+    matrix:
+      loadBalancer:
+        servers:
+          - url: "http://matrix.example.com"
+    livekit:
+      loadBalancer:
+        servers:
+          - url: "http://livekit.example.com"

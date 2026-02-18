@@ -1,0 +1,15 @@
+# TODO: configure Matrix stack services (Synapse, Postgres, Element)
+version: "3.9"
+
+services:
+  synapse:
+    image: matrixdotorg/synapse:latest
+    # TODO: configure volumes, environment, and ports
+
+  postgres:
+    image: postgres:15
+    # TODO: configure volumes, environment, and healthcheck
+
+  element:
+    image: vectorim/element-web:latest
+    # TODO: configure volumes and ports

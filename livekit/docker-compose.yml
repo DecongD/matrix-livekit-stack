@@ -1,0 +1,11 @@
+# TODO: configure LiveKit stack services
+version: "3.9"
+
+services:
+  livekit:
+    image: livekit/livekit-server:latest
+    # TODO: configure volumes, ports, and environment
+
+  turn:
+    image: coturn/coturn:latest
+    # TODO: configure volumes, ports, and environment

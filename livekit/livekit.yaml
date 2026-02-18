@@ -1,0 +1,6 @@
+# TODO: configure LiveKit server settings
+# Use example.com placeholders; do not place secrets here.
+port: 7880
+rtc:
+  udp_port: 7882
+  tcp_port: 7881

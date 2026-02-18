@@ -1,0 +1,16 @@
+# TODO: configure Traefik reverse proxy stack
+version: "3.9"
+
+services:
+  traefik:
+    image: traefik:v3.0
+    command:
+      - "--providers.file.filename=/etc/traefik/dynamic.yml"
+      - "--entrypoints.web.address=:80"
+      # TODO: add TLS entrypoints and ACME settings
+    ports:
+      - "80:80"
+      # TODO: add 443:443 for TLS
+    volumes:
+      - ./dynamic.yml:/etc/traefik/dynamic.yml:ro
+      # TODO: add docker socket and cert storage as needed
