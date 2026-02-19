@@ -10,5 +10,5 @@
 - Validate public IPs and DNS records.
 
 **High CPU Usage**
-- Reduce video resolution or participant count.
+- Reduce screen-sharing resolution or participant count.
 - Scale LiveKit VM resources.

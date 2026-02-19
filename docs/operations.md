@@ -2,7 +2,7 @@
 
 **Routine Tasks**
 - Monitor disk usage on the Matrix VM because logs grow over time.
-- Check LiveKit CPU and bandwidth usage during calls.
+- Check LiveKit CPU and bandwidth usage during screen-sharing sessions.
 - Update DNS records after public IP rotation.
 
 **Backup**

@@ -4,7 +4,7 @@ This repository defines a Proxmox-hosted Matrix + LiveKit stack with Nginx as th
 
 **Goals**
 - Self-host Matrix (Synapse), Element, and LiveKit.
-- Provide persistent voice and video rooms with 1080p capability.
+- Provide persistent voice rooms with screen sharing (no camera video).
 - Keep the deployment simple and maintainable for a small user base (5-10 people).
 
 **High-Level Components**

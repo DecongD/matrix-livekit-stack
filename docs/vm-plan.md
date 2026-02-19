@@ -25,7 +25,7 @@ This document captures a practical baseline for a single-host Proxmox deployment
    - Public IP: Dynamic Public IP B.
    - Private IP: `10.0.0.30`.
    - Suggested size: 4 vCPU, 8-16 GB RAM, 50+ GB disk.
-   - 1080p note: keep at least 4 vCPU and 8 GB RAM; scale up if sessions grow.
+   - Screen sharing note: 4 vCPU and 8 GB RAM is sufficient for 5-10 users.
 
 **DNS Plan**
 - `matrix.example.com` -> Public IP A
@@ -49,4 +49,4 @@ This document captures a practical baseline for a single-host Proxmox deployment
 - Public IPs change: update DNS A records when they rotate.
 - Keep logs on `vm-matrix` only. No recording storage.
 - Consider snapshots before major upgrades.
- - 1080p video requires stable uplink bandwidth and open UDP media ports.
+ - Screen sharing requires stable uplink bandwidth and open UDP media ports.
